@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+h1 {
+    color: darkred;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 12px;
+    margin: auto;
+    width: 1000px;
+}
+
+.instructions {
+    color: darkseagreen;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    letter-spacing: 1px; 
+    width: 1000px;
+}
+
+.ctable {
+    width: 900px;
+    padding: auto;
+    margin: auto;
+    height: 1000px;
+}
+
+.characters {
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    border-color: deepskyblue;
+    border-width: medium;
+    float: left;
+}
+
+.path {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    color: darkseagreen;
+    background-color: darkblue;
+    text-align: center;
+    border-radius: 12px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+img.center {
+    display: block;
+    margin: 20px auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+}
+
+th {
+    text-align: center;
+    background-color: lightsteelblue;
+    color: darkblue;
+    font-size: 25px;
+    width: 900px;
+}
+    
+tr {
+    text-align: Center;
+    color: black;
+    font-size: 22px;
+    background-color: aliceblue;
+    width: 900px;
+}
+
+#play {
+    color: red;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    width: 600px;
+    margin: 10px auto;
+}
+
+#back {
+    color: mediumpurple;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: ghostwhite;
+    border-radius: 12px;
+    width: 600px;
+    margin: 10px auto;
+}
+
+#dialogue {
+    background-color: lightsteelblue;
+    color: black;
+    font-family: inherit;
+    font-size: 22px;
+    width: 800px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px 40px;
+    margin: auto;
+}
+
+#choice {
+    color: skyblue;
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    border-radius: 12px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+#over {
+    font-family: 'VT323', monospace;
+    background-color: red;
+    font-size: 70px;
+    color: black;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#end {
+    font-family: 'Pacifico', cursive;
+    background-color: aquamarine;
+    font-size: 70px;
+    color: black;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.footer {
+    text-align: right;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 1000px;
+    height: 40px;
+    color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 12px;
+}
+
+.noel:hover {
+    background-image: url(/noel/noel.png);
+    height: 250px;
+    width: 250px;
+}
+
+.null:hover {
+    background-image: url(/null/null.png);
+    height: 250px;
+    width: 250px;
+}
+
+.joan:hover {
+    background-image: url(/joan/joan.png);
+    height: 250px;
+    width: 250px;
+}
