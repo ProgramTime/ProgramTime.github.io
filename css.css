@@ -175,8 +175,8 @@ tr {
     width: 1000px;
     height: 40px;
     color: aliceblue;
-    margin: 0 auto;
-    padding: 20px;
+    margin: auto;
+    padding: 20px 80px;
     background-color: darkblue;
     border-radius: 12px;
 }
