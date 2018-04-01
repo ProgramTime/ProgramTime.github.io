@@ -203,3 +203,9 @@ tr {
     height: 250px;
     width: 250px;
 }
+
+.yandere2:hover {
+    background-image: url(/yandere2/yandere2.png);
+    height: 250px;
+    width: 250px;
+}
