@@ -35,7 +35,6 @@ h1 {
     padding: auto;
     margin: auto;
     height: 1000px;
-    align-self: center;
 }
 
 .characters {
@@ -195,6 +194,12 @@ tr {
 
 .joan:hover {
     background-image: url(/joan/joan.png);
+    height: 250px;
+    width: 250px;
+}
+
+.yandere:hover {
+    background-image: url(/yandere/yandere.png);
     height: 250px;
     width: 250px;
 }
