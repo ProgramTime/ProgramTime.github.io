@@ -1,45 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" type="text/css" href="/css.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Audiowide|Cuprum|Iceberg" rel="stylesheet">
     <head>
         <title>SoAK</title>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
   
     <body>
-        <audio controls autoplay>
-            <source src="VonNoel.mp3" type="audio/ogg"/>
-            <source src="VonNoel.mp3" type="audio/ogg">
-            Your browser does not suppor the audio element
-        </audio>
+        <div class="sidebar">
+            <div class="logo">Survival of All Kinds</div>
+            <div class="sides"><a href="/index.html" class="home">Home</a></div>
+            <div class ="sides"><a href="/characters.html" class="home">Characters</a></div>
+            <div class="sides"><a href="/events.html" class="home">Events</a></div>
+            <div class="sides"><a href="/contact.html" class="home">Contact</a></div>
+        </div>
         
-        <a href="/index.html"><h1>Survival of All Kinds</h1></a>
+        <div class="game" style="background-image: url(https://2.bp.blogspot.com/-QiECU86sNGg/Uuj7e6sr_II/AAAAAAAACaQ/gn_C00ZnrFw/s640/Sky+Anime+Landscape+%5BScenery+-+Background%5D+59.jpg)">
+            <section id="000">
+                <audio controls autoplay>
+                    <source src="VonNoel.mp3" type="audio/ogg"/>
+                    <source src="VonNoel.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/1.png">
+                <div class="dialogue">
+                    You are a lost girl, the last thing you remember is sleeping with your dad smiling at you from above and Null snuggling into your side.
 
-        <p class="instructions">Game Play: <br>Choose a character to play and make your choices! Your decisions will determine life and death along with the type of ending.</p>
+                    Your dad is the only parent you have since your mom died the day you were born.
 
-        <p class="instructions">You Have Chosen:</p>
+                    Your dad got you Null when you were young because he couldn't always be there when he had to work.
+
+                    But where were they now?
+
+                    And where were you?
+                </div>
+                <a href="#001" class="button">Walk On!</a>
+            </section>
+            <section id="001">
+                <img src="/dogs/10.png">
+                <div class="dialogue">
+                    There are two paths before you, scared but determined, you make your choice.
+
+                    Shall it be the left or the right?
+                </div>
+                <a href="#002" class="button">Left</a>
+                <a href="#003" class="button">Right</a>
+            </section>
+            <section id="002">
+                <img src="/dogs/11.png">
+                <div class="dialogue">
+                    There were some corpses of wolves lying around, their red blood making small puddles you stepped over carefully.
+
+                    You take the left and meet another intersection.
+
+                    One goes left while the other goes straight ahead.
+
+                    You can hear something from the right, it sounds rather like scratching. Should you risk it?
+                </div>
+                <a href="#004" class="button">Straight</a>
+                <a href="#005" class="button">Right</a>
+            </section>
+            <section id="003">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/12.png">
+                <div class="dialogue">
+                    Oh no! What terrible luck!
+
+                    Your first choice and it's a zombie nest!
+
+                    A child with nothing but the dress on her body and a bunny plushie can do nothing in front of those hungry monsters.
+
+                    You can only close your eyes and cry as their claws tears into you and their teeth rips you apart.
+                    
+                    GAME OVER
+                </div>
+                <a href="#000" class="button">Restart?</a>
+            </section>
+            <section id="004">
+                <audio controls autoplay>
+                    <source src="NormalEnd.mp3" type="audio/ogg"/>
+                    <source src="NormalEnd.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/13.png">
+                <div class="dialogue">
+                    The route is long and hard, you feel yourself steadily tiring. But you persisted and avoided the strange corners and kept on walking.
+
+                    Tightly clutching your bunny, you stumble upon a half-eaten corpse with a bag, you take the bag and continue onwards.
+
+                    Eventually, you find the entrance. Even though you walk out of it, you feel empty.
+
+                    There is no one with you, and you don't know if you will ever find your dad or Null.
+
+                    You collapse outside and cry.
+
+                    After a while, you stand up and clutch your last personal belonging and brave yourself against the lonesome world.
+                    
+                    END
+                </div>
+                <a href="#000" class="button">Restart?</a>
+            </section>
+            <section id="005">
+                <img src="/dogs/14.png">
+                <div class="dialogue">
+                    You run into your family's pet dog, Null!
+
+                    He is a big and strong dog, with him by your side, you feel much more fearless.
+
+                    He also looks happy to see you and bounds up to greet you.
+
+                    Null then guides you to the other way he didn't go and stops before another cross section.
+
+                    Will you try the dark looking path ahead, or try the right Null seems to be more interested in?
+                </div>
+                <a href="#006" class="button">Straight</a>
+                <a href="#007" class="button">Right</a>
+            </section>
+            <section id="006">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/15.png">
+                <div class="dialogue">
+                    You two run into an injured woman. She is holding a bow and arrows, and asks for your dog.
+
+                    You refused her and it angers the woman.
+
+                    All you saw was a flash of white, and then darkness.
+                    
+                    GAME OVER
+                </div>
+                <a href="#000" class="button">Restart?</a>
+            </section>
+            <section id="007">
+                <img src="/dogs/2.png">
+                <div class="dialogue">
+                    You two see the entrance as you follow the path and turn a corner.
+
+                    Tears well up in your eyes as you think of getting up. Then you notice another corner where some sounds are coming from.
+
+                    Null seems to be on guard against it, should you check it out before leaving?
+                </div>
+                <a href="#008" class="button">Directly Leave</a>
+                <a href="#009" class="button">Check</a>
+            </section>
+            <section id="008">
+                <audio controls autoplay>
+                    <source src="GoodEnd1.mp3" type="audio/ogg"/>
+                    <source src="GoodEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/3.png">
+                <div class="dialogue">
+                    You and Null directly left without taking the chance.
+
+                    The outside world is so much brighter than ever in your eyes. Null also runs around happily and gave a few barks.
+
+                    But you still feel a bit afraid, where was your dad? It would be great if you can find him again.
+
+                    For now, you can only do your best to look for him with Null.
+                    
+                    END
+                </div>
+                <a href="#000" class="button">Restart?</a>
+            </section>
+            <section id="009">
+                <img src="/dogs/5.png">
+                <div class="dialogue">
+                    You and Null carefully peek over the corner, and what you see makes your tears fall.
+
+                    It was your dad, but zombie-fied.
+
+                    Null quickly advanced and killed him before he can harm you.
+
+                    After the zombie fell down and no longer moves, you crouch by it and cry, weeping for the remaining family member that was now lost to you as well.
+
+                    You and Null leave after you dry your tears. Though you may not have any more family left, you will do your best to survive with Null. He is also family. Although a slightly different one.
+
+                    You will do your best to survive.
+
+                    After all, your dad left you a message:
+
+                    "Noel, live strongly and freely. Papa loves you."
+                </div>
+                <a href="#000" class="button">Replay?</a>
+            </section>
+            <section class="intro">
+                <img src="noel.png">
+                <div class="dialogue">
+                    Noel
         
-        <table>
-            <tr>
-                <th>Noel</th>
-            </tr>
-            <tr>
-                <td>A young girl separated from her family.</td>
-            </tr>
-        </table>
+                    A young girl separated from her family.
+                </div>
+                <a href="#000" class="button">Start</a>
+            </section>
+        </div>
         
-    <br>
-        
-        <a href="/noel/noel0.html" style="text-decoration: none"><p id="play">Play</p></a>
-        <a href="/index.html" style="text-decoration: none"><p id="back">Back</p></a>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <footer>
-            <p class="footer">SnowTime @SnowyCodex <br>Feb. 2018</p>
-        </footer>
+        <script>
+            document.addEventListener('play', function(e) {
+            var audios = document.getElementsByTagName('audio');
+                for(var i = 0, len = audios.length; i < len;i++) {
+                    if(audios[i] != e.target) {
+                        audios[i].pause();
+                    }
+                }
+            }, true);
+        </script>
     </body>
 </html>
