@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        width: 800px;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 500px;
+        height: 50px;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 2px;
+    }
+    
+    button {
+        margin-top: 50px;
+        width: 100px;
+        border-radius: 12px;
+        background-color: aquamarine;
+        font-family: monospace;
+        border-color: azure;
+    }
+    
+    img {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+</head>
+<body>
+<h1>Noel!</h1>
+<div align="center"> 
+    <div style="float:left; width: 300px; background-color:lightblue; padding-bottom:50px; margin-top: 50px">
+        <button onclick="document.getElementById('start').src='normal.gif'; playAudio1()">Normal</button>
+        
+        <button onclick="document.getElementById('start').src='flail.gif'; playAudio2()">Flail</button>
+
+        <button onclick="document.getElementById('start').src='rawr.gif'; playAudio3()">Rawr</button>
+        
+        <button onclick="document.getElementById('start').src='hmm.gif'; playAudio4()">Hmm</button>
+        
+        <button onclick="document.getElementById('start').src='unknown.gif'; playAudio5()">???</button>
+    </div>
+    <div style="float:right; width:500px">
+        <img id="start" src="normal.gif" style="width: 300px">
+    </div>
+</div>    
+<script>
+var audio = new Audio('normal.mp3');
+var audio2 = new Audio('flail.mp3');
+var audio3 = new Audio('rawr.mp3');
+var audio4 = new Audio('ok.mp3');
+var audio5 = new Audio('unknown.mp3');
+
+function playAudio1(){
+    audio.play();
+}
+
+function playAudio2(){
+    audio2.play();
+}
+
+function playAudio3(){
+    audio3.play();
+}
+
+function playAudio4(){
+    audio4.play();
+}
+
+function playAudio5(){
+    audio5.play();
+}
+</script>
+
+</body>
+</html>
