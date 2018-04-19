@@ -1,16 +1,17 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 1350px;
+    margin: 0px;
+    padding: 0px;
+    width: 1550px;
     background-color: black;
+    margin: auto;
 }
 
 .game {
     width: 1100px;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     float: left;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .game > section {
@@ -41,7 +42,9 @@ section {
     display: block;
     background-color: #ebebeb;
     padding-bottom: 30px;
-    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0px auto;
     margin-top: 15px;
     border-style: groove;
     border-width: thick;
@@ -70,7 +73,7 @@ section {
 
 .sidebar {
     float: left;
-    height: 800px;
+    height: 900px;
     width: 230px;
     background-color: black;
     margin: 0 auto;
