@@ -1,45 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" type="text/css" href="/css.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Audiowide|Cuprum|Iceberg" rel="stylesheet">
     <head>
         <title>SoAK</title>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
   
     <body>
-        <audio controls autoplay>
-            <source src="JoanStar.mp3" type="audio/ogg"/>
-            <source src="JoanStart.mp3" type="audio/ogg">
-            Your browser does not suppor the audio element
-        </audio>
+        <div class="sidebar">
+            <div class="logo">Survival of All Kinds</div>
+            <div class="sides"><a href="/index.html" class="home">Home</a></div>
+            <div class ="sides"><a href="/characters.html" class="home">Characters</a></div>
+            <div class="sides"><a href="/events.html" class="home">Events</a></div>
+            <div class="sides"><a href="/contact.html" class="home">Contact</a></div>
+        </div>
         
-        <a href="/index.html"><h1>Survival of All Kinds</h1></a>
-
-        <p class="instructions">Game Play: <br>Choose a character to play and make your choices! Your decisions will determine life and death along with the type of ending.</p>
+        <div class="game" style="background-image: url(/backgrounds/joan.png)">
+            <section id="000">
+                <audio controls autoplay>
+                    <source src="JoanStart.mp3" type="audio/ogg"/>
+                    <source src="JoanStart.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/1.png">
+                <div class="dialogue">
+                    You are on the run from beasts, zombified wolves. Normal wolves were dangerous enough when times were peaceful, but now there is a whole pack of undead ones.
+                    
+                    Your daughter is in your arms, stlll sleeping restlessly while your loyal dog ran with you.
+                    
+                    You were lucky no one in the family were turned, but life is dangerous and it can end at any moment.
+                    
+                    You have ran and ran until there was only a single place to run... a... castle?
+                    
+                    The howls of wolves came ever so closer from behind, so you clenched your teeth and charged in.
+                    
+                    It was time to gamble.
+                </div>
+                <a href="#001" class="button">Gamble!</a>
+            </section>
+            <section id="001">
+                <img src="/dogs/10.png">
+                <div class="dialogue">
+                    It was dark, it was foul, but it was the only way to go.
+                    
+                    The corridor was long and had many twists and turns, but you have yet to find an intersection to lose the chasing hunters.
+                    
+                    Your loyal dog follows urgently, occasionally pawing at your pants when you linger too long to catch your breath.
+                    
+                    You finally see what appears to be an intersection in sight.
+                    
+                    A haggard man was also there.
+                    
+                    What should you do?
+                </div>
+                <a href="#002" class="button">Try to ask him for help</a>
+                <a href="#003" class="button">Avoid him</a>
+            </section>
+            <section id="002">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/11.png">
+                <div class="dialogue">
+                    You call out to the man who gives you a friendly, but tired smile.
+                    
+                    He waited for you to come closer and suddenly lashes out.
+                    
+                    Unprepared, your chest was stabbed.
+                    
+                    Your loyal dog lashes out at the man and breaks his neck.
+                    
+                    With the other man dead, he comes to you, whining and pawing at you.
+                    
+                    "Null... take Noel... take care of her..."
+                    
+                    You fall into the darkness as the howl of wolves and Null's furious barks echoed in your ears.
+                    
+                    "Jessie... I'm sorry I couldn't protect her..."
+                    
+                    GAME OVER
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section id="003">
+                <img src="/dogs/12.png">
+                <div class="dialogue">
+                    The man sees you and waves at you with a friendly smile.
+                    
+                    But you don't have the time to trust or care about others so you tried to avoid him.
+                    
+                    The man lost his smile and friendly attitude seeing you trying to avoid him. He suddenly takes out a knife and lashes it at you.
+                    
+                    But your loyal dog was on him in an instant and breaks the man's neck.
+                    
+                    Staring down at his corpse, you take the knife and drag the man into the corner. He had a bag on him, but you didn't have time to check it before the warning howls of the wolves came closer.
+                    
+                    "Null, thank you." 
+                    
+                    "Woof!"
+                    
+                    And you two continue running.
+                    
+                    Noel thankfully remained asleep. She has seen enough for now.
+                    
+                    A corridor opening to the left is appearing.
+                    
+                    Take the left or keep going straight?
+                </div>
+                <a href="#004" class="button">Keep going straight</a>
+                <a href="#005" class="button">Take the left</a>
+            </section>
+            <section id="004">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/13.png">
+                <div class="dialogue">
+                    You went past the left turn and kept going straight.
+                    
+                    But to your utter despair, you discovered too late it was a zombie nest.
+                    
+                    You try to run back out but the wolves were already past the other corridor from which you could have ran into.
+                    
+                    With Noel in one arm, you brandish your knife while Null did his best to protect you two.
+                    
+                    You would kill a zombie but then a zombified wolf would attack you from another place.
+                    
+                    You quickly tired but still fought desperately.
+                    
+                    "Not Noel, just not her. I promised her, I promised Jessie. Please, Jessie, bless us."
+                    
+                    "Whimper."
+                    
+                    "Null!"
+                    
+                    That one distraction was the end to all. Null laid bleeding out on the ground and you were mauled, falling to the ground on your back.
+                    
+                    "Dad?"
+                   
+                    That sleepy voice was the last thing you heard.
+    
+                    Game Over
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section id="005">
+                <img src="/dogs/14.png">
+                <div class="dialogue">
+                    You dashed into the left corridor quickly. Soon after, you would be able to hear the high howls and growls of wolves clashing with something else.
+                    
+                    Their claws scratching the walls were truly unpleasant to hear.
+                    
+                    You heave a breath of relief that you did not keep going straight, whatever was there was fighing a hard battle with the wolves.
+                    
+                    You run and run but the wolves are back onto your tracks. Holding Noel and running the entire time wasn't going to cut it.
+                    
+                    You clench you teeth as you saw more paths before you.
+                    
+                    You need to hide Noel. But where?
+                    
+                    The left corridor a little more ahead or the right one next to you?
+                </div>
+                <a href="#006" class="button">Left</a>
+                <a href="#012" class="button">Right</a>
+            </section>
+            <section id="006">
+                <img src="/dogs/15.png">
+                <div class="dialogue">
+                    You made your choice and went left.
+                    
+                    Luckily for you, there was a little place to hide Noel in, a dead end.
+                    
+                    You carefully put down the still sleeping Noel and kissed her forehead. Then you ordered Null to stay and protect her while you lure away the wolves.
+                    
+                    "Noel, daddy will come back. Just stay here."
+                    
+                    You reach into your collar and pull out a necklace and clicked it open. Jessie, your beautiful wife smiled at you from the picture within.
+                    
+                    "Oh Jessie, please look after us some more."
+                    
+                    As for Null...
+                </div>
+                <a href="#007" class="button">Make him stay and protect Noel</a>
+                <a href="#010" class="button">Take him with you</a>
+            </section>
+            <section id="007">
+                <img src="/dogs/2.png">
+                <div class="dialogue">
+                    "Null, stay here and protect Noel."
+                    
+                    "Woof!" Null gives you his bravest face and you smiled.
+                    
+                    Then you took a deep breath and went back out to where the other corridor was.
+                    
+                    Just in time, you saw the wolves peeking past the other corner and you yelled at them while you ran,
+                    
+                    "You wolves don't scare me!"
+                    
+                    A couple caught up, but you slashed at them with a knife.
+                    
+                    Then Null was running by you!
+                    
+                    "What?"
+                    
+                    You look back to see that Null was also baiting a couple wolves, some may have went to where Noel was so Null had no choice but to fight and lead them away as well. 
+                    
+                    You ran into the right tunnel while Null ran into the left one.
+                    
+                    The furious barkings slowly fade away as you were also caught up by the wolves.
+                    
+                    "Howl!"
+                    
+                    A bite. It was all it took.
+                    
+                    All it needed was one bite for someone to turn into a zombie. And you were bitten.
+                    
+                    Should you keep running or stand and fight?
+                </div>
+                <a href="#008" class="button">Keep running</a>
+                <a href="#009" class="button">Fight</a>
+            </section>
+            <section id="008">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/3.png">
+                <div class="dialogue">
+                    You kept running and running... and soon, you could feel yourself slipping away.
+                    
+                    The wolves pounced on you and gave you a couple good bites before turning away to chase the other prey.
+                    
+                    You, now a zombie, slowly stood up and hobbled around.
+                    
+                    Eventually, you found a girl, staring at you with wide eyes.
+                    
+                    "Dad?"
+                    
+                    You strike down and blood flowed.
+                    
+                    GAME OVER
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section id="009">
+                <audio controls autoplay>
+                    <source src="JoanEnd.mp3" type="audio/ogg"/>
+                    <source src="JoanEnd.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/5.png">
+                <div class="dialogue">
+                    You stood your ground and decided to fight.
+                    
+                    Being bitten, you would end up dead anyways. It was best to kill as many of these wolves as you can to give your child a hope.
+                    
+                    Perhaps it was too hopeful of you to hope a single child can survive by herself, but there is always hope.
+                    
+                    You brandish your knife and went head on.
+                    
+                    "Howl!!!"
+                    
+                    You fight and fight until you could not longer feel anything. As the last of the wolves were killed and you feel yourself slipping away, you tried to drag yourself away.
+                    
+                    The farther you were from Noel, the better.
+                    
+                    You dragged yourself into a dead end, using the last of your energy and consciousness, you wrote to her.
+                    
+                    Noel, live strongly and freely. Dad loves you.
+                </div>
+                <a href="#011" class="button">Next</a>
+            </section>
+            <section id="010">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/5.png">
+                <div class="dialogue">
+                    You had Null come with you to bait and fight the wolves.
+                    
+                    The wolves quickly went for you two, but to your horror, you notice one still slip into the other corridor.
+                    
+                    You tried to run back and was rushed at by wolves.
+                    
+                    "Noel!"
+                    
+                    I'm sorry Noel. If only you could have a better life in a world that was still peaceful.
+                    
+                    Thank you Null, for staying with us all this time.
+                    
+                    You were a great member of our family.
+                    
+                    GAME OVER
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section id="011">
+                <img src="/dogs/5.png">
+                <div class="dialogue">
+                    A dog slowly opened his eyes. Some blood coated him and there were some bodies around him, but he was alive.
+                    
+                    A dull pain came from his head as he got up and looked around.
+                    
+                    Where was he?
+                    
+                    ---
+                    
+                    In another spot, a little girl woke up.
+                    
+                    In a dark place and foul smell, she looked around her.
+                    
+                    Where was she?
         
-        <p>You Have Chosen:</p>
+                    END
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section id="012">
+                <audio controls autoplay>
+                    <source src="BadEnd1.mp3" type="audio/ogg"/>
+                    <source src="BadEnd1.mp3" type="audio/ogg">
+                    Your browser does not suppor the audio element
+                </audio>
+                <img src="/dogs/5.png">
+                <div class="dialogue">
+                    You carried Noel and continue to run, but it was hard to find places to hide Noel.
+                    
+                    The wolves are coming closer and Null, determined and loyal friend he was, rushed back.
+                    
+                    
+                    "Null!"
+                    
+                    The loyal dog did not look back, he rushed to the wolves. You clenched your teeth and continued to run.
+                    
+                    But the wolves quickly took down Null.
+                    
+                    And you were their next target.
+                </div>
+                <a href="#000" class="button">Back to Beginning</a>
+            </section>
+            <section class="intro">
+                <img src="joan.png">
+                <div class="dialogue">
+                    Joan
         
-        <table>
-            <tr>
-                <th>Joan</th>
-            </tr>
-            <tr>
-                <td>A father trying to protect his daughter while on the run from beasts.</td>
-            </tr>
-        </table>
+                    A father trying to protect his daughter while on the run from beasts.
+                </div>
+                <a href="#000" class="button">Start</a>
+            </section>
+        </div>
         
-        <br>
-        
-        <a href="/joan/joan0.html"><p id="play">Play</p></a>
-        <a href="/index.html"><p id="back">Back</p></a>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <footer>
-            <p class="footer">SnowTime @SnowyCodex <br>Feb. 2018</p>
-        </footer>
+        <script>
+            document.addEventListener('play', function(e) {
+            var audios = document.getElementsByTagName('audio');
+                for(var i = 0, len = audios.length; i < len;i++) {
+                    if(audios[i] != e.target) {
+                        audios[i].pause();
+                    }
+                }
+            }, true);
+        </script>
     </body>
 </html>
